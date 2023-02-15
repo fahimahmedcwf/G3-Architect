@@ -320,5 +320,48 @@ input[type="checkbox"] {
     }
 
     /* 2nd Section */
+
+    .second-section{
+        max-width: 1580px;
+        margin: auto;
+        padding: 0 20px 0 20px;
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+
+    .second-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 50px;
+        align-items: center;
+    }
+
+    .architect-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .architect-img{
+        width: 330px;
+    }
+
+    .year-button{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .year-btn{
+        margin-top: -80px;
+        background-color: #FF900E;
+        color: white;
+        padding: 30px 35px;
+        border-radius: 8px;
+        border: none;
+        font-weight: bolder;
+        font-size: 28px;
+        line-height: 16px;
+    }
 }
 
