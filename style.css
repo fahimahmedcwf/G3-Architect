@@ -156,6 +156,56 @@ input[type="checkbox"] {
     margin-top: 20px;
 }
 
+/* 2nd Section */
+
+.second-section{
+    max-width: 1580px;
+    margin: auto;
+    padding: 0 50px 0 50px;
+
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.second-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 90px;
+    align-items: center;
+}
+
+.second-text{
+    font-size: 40px;
+    line-height: 45px;
+    border-left: 5px solid #FF900E;
+    padding-left: 10px;
+}
+
+.box{
+    box-shadow: 5px 5px 14px #e0dede;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.year-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.year-btn{
+    margin-top: -80px;
+    margin-left: 80px;
+    background-color: #FF900E;
+    color: white;
+    padding: 30px 35px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bolder;
+    font-size: 28px;
+    line-height: 16px;
+}
+
 /* Responsive Section */
 
 @media (max-width: 1000px) {
@@ -268,5 +318,7 @@ input[type="checkbox"] {
         margin-top: 50px;
         margin-bottom: 50px;
     }
+
+    /* 2nd Section */
 }
 
