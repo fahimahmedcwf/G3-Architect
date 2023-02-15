@@ -119,6 +119,43 @@ input[type="checkbox"] {
     margin-bottom: 30px;
 }
 
+/* 1st Section */
+
+.first-section{
+    max-width: 1580px;
+    margin: auto;
+    padding: 0 50px 0 50px;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.section-text{
+    font-size: 50px;
+    line-height: 55px;
+}
+
+.first-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    align-items: center;
+}
+
+.team-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.team-img{
+    width: 270px;
+}
+
+.btn{
+    margin-top: 20px;
+}
+
 /* Responsive Section */
 
 @media (max-width: 1000px) {
